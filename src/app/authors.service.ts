@@ -5,5 +5,9 @@ import { Injectable } from '@angular/core';
 })
 export class AuthorsService {
 
-  constructor() { }
+  // method to retrieve list of authors
+  getAuthors() {
+    return ["Tulsidas", "Sumitra", "Premchand"];
+  }
+  
 }
